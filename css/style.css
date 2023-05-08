@@ -20,12 +20,44 @@
 .border{
     border: 1px solid white;
 }
+
+.padding-20{
+    padding: 20px 0;
+}
+
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
 /*fine layout*/
 
 /*header*/
+header{
+    color: white;
+}
+
+.content h6{
+    font-weight: 700;
+}
+
 .background-nero{
     background-color: #2c3e50;
-    height: 50px;
+}
+
+#hamburger{
+    border: 1px solid white;
+    padding: 8px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding-left: 10px;
 }
 /*fine header*/
 
@@ -72,3 +104,14 @@ background-color: #000;
     background-color: #3a546d;
 }
 /*fine footer*/
+
+/*media query tablet*/
+@media screen and (min-width: 720px) {
+    .display-none{
+        display: block;
+    }
+
+    .display-block{
+        display: none;
+    }
+}
