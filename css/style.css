@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*layout*/
+/*fine layout*/
+
+/*header*/
+.background-nero{
+    background-color: #2c3e50;
+    height: 50px;
+}
+
+.h-50-col{
+    height: 50px;
+}
+
+.border{
+    border: 1px solid white;
+}
+/*fine header*/
+
+/*main*/
+.background-verde{
+    background-color: #1abc9c;
+}
+
+.h-200-row{
+    height: 200px;
+}
+
+.background-giallo{
+    background-color: yellow;
+}
+
+.h-50-col{
+    height: 50px;
+}
+
+/* SFONDI PORTFOLIO */
+
+    .violet {
+        background-color: #ba4b63;
+    }
+
+    .cyan {
+        background-color: #1ea4b6;
+    }
+
+    .black {
+        background-color: #000;
+    }
+
+    .lightblue{
+       background-color: #1c83c1; 
+    }
+
+    .blue {
+        background-color: #0e38b5;
+    }
+
+    .pink {
+        background-color: #ccb2a3;
+    }
+
+    /* FINE SFONDI PORTFOLIO */
+/*fine main*/
+
+/*footer*/
+
+/*fine footer*/
