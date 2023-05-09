@@ -9,36 +9,21 @@ body{
     color: white;
 }
 
-.h-50px{
-    height: 50px;
-}
-
-.h-200px{
-    height: 200px;
-}
-
-.h-150px{
-    height: 150px;
-}
-
 .border{
     border: 1px solid white;
 }
 
-.padding-20{
-    padding: 20px 0;
-}
-
-.display-none{
-    display: none;
-}
-
-.display-block{
-    display: block;
-}
-
 .color-black{
     color: #000;
+}
+
+.width-row{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.padding-top-80{
+    padding-top: 80px;
 }
 /*fine layout*/
 
@@ -80,6 +65,7 @@ header ,.background-nero{
 .background-giallo{
     background-color: yellow;
 }
+
 /*start bootstrap*/
 .img-avatar{
     width: 200px;
@@ -99,6 +85,17 @@ h1{
     width: 100%;
     border-radius: 10px;
 }
+
+/*about*/
+.button-sec-about{
+    background-color: #1abc9c;
+    border: 1px solid white;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 6px;
+    margin: 20px 0 40px 0;
+}
+
 /*contact me*/
 .border-input{
     border-top: none;
@@ -144,14 +141,6 @@ h1{
 
 /*media query tablet*/
 @media screen and (min-width: 720px) {
-    .display-none{
-        display: block;
-    }
-
-    .display-block{
-        display: none;
-    }
-
     content .list-inline .list-inline-item span {
         width: 130px;
     }
