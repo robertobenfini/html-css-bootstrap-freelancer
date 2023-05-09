@@ -43,7 +43,7 @@ body{
 /*fine layout*/
 
 /*header*/
-header{
+header ,.background-nero{
     background-color: #2c3e50;
 }
 
@@ -98,6 +98,13 @@ h1{
 .img-portfolio{
     width: 100%;
     border-radius: 10px;
+}
+/*contact me*/
+.border-input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
 }
 /*fine main*/
 
